@@ -1,0 +1,44 @@
+/*Codigo para el 3 en raya*/
+button{
+    width: 150px;
+    height: 150px;
+    font-size: 4em;
+    font-size: center;
+    border-color: yellow;
+    border-radius: 100%;
+    background-color: rgb(95, 10, 9);
+    color: darkgreen;
+}
+button:hover{
+    background-color: yellow ;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 400px;
+    
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    margin: auto;
+    
+}
+h1{
+    
+    font-size: 4em;
+    font-family: cursive;
+    -webkit-text-stroke: gold 1px;
+}
+
+body{
+    background-image: url(img.jpg);
+}
+
+
+/*Codigo para el fondo de la animación*/
+
